@@ -27,8 +27,8 @@ export const VERIFICATION_DATA = {
     incorporationDate: "June 14, 2026",
     einTaxId: "XX-XXX4912 (Verified in Cap Table)",
     registeredAddress: "548 Market St, Suite 34109, San Francisco, CA 94104",
-    primaryDomain: "meowbox.ai",
-    corporateContact: "founders@meowbox.ai",
+    primaryDomain: "meowboxai.tech",
+    corporateContact: "founders@meowboxai.tech",
     securityAuditStatus: "Passed SOC2 Type I Readiness & Privacy Protocol"
   },
 

@@ -40,8 +40,8 @@ export default function InvestorVerificationPage({ onBackToHome }) {
   const [groqStreamedText, setGroqStreamedText] = useState("");
 
   const currentVerificationUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}${window.location.pathname.includes('/meowboxai') ? '/meowboxai/verify' : '/verify'}` 
-    : 'https://meowboxai.com/verify';
+    ? (window.location.origin.includes('localhost') ? `${window.location.origin}/verify` : 'https://meowboxai.tech/verify') 
+    : 'https://meowboxai.tech/verify';
 
   const handleCopy = (text, type) => {
     navigator.clipboard.writeText(text);
